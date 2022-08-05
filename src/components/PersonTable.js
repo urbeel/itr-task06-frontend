@@ -3,7 +3,7 @@ import axios from "axios";
 import React from "react";
 
 export function PersonTable() {
-    const backendUrl = "https://urbel-task06-backend.herokuapp.com/";
+    const backendUrl = "https://urbel-task06-backend.herokuapp.com";
     let id = 1;
     const [seed, setSeed] = useState(0);
     const [locale, setLocale] = useState("ru_RU");
